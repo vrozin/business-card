@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/bottom_nav_experience"
+        android:enabled="true"
+        android:icon="@drawable/ic_list"
+        android:title="@string/bottom_nav_experience"
+        android:titleCondensed="@string/bottom_nav_experience" />
+    <item
+        android:id="@id/bottom_nav_education"
+        android:enabled="true"
+        android:icon="@drawable/ic_education"
+        android:title="@string/bottom_nav_education"
+        android:titleCondensed="@string/bottom_nav_education" />
+    <item
+        android:id="@id/bottom_nav_about"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="@string/bottom_nav_about"
+        android:titleCondensed="@string/bottom_nav_about" />
+    <item
+        android:id="@id/bottom_nav_hobbies"
+        android:enabled="true"
+        android:icon="@drawable/ic_snowboarding"
+        android:title="@string/bottom_nav_hobbies"
+        android:titleCondensed="@string/bottom_nav_hobbies" />
+    <item
+        android:id="@id/bottom_nav_settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_user"
+        android:title="@string/bottom_nav_user_settings"
+        android:titleCondensed="@string/bottom_nav_user_settings" />
+</menu>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseTheme" parent="Theme.MaterialComponents.NoActionBar">
+
+    </style>
+
+    <style name="DialogFragmentTheme.Animation" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+<!-- ___________________________________________________________________________________________ -->
+
+    <style name="DarkTheme" parent="BaseTheme">
+        <item name="colorPrimary">        @color/dt_primary </item>
+        <item name="colorPrimaryDark">    @color/dt_primary_dark </item>
+        <item name="colorPrimaryVariant"> @color/dt_primary_light </item>
+        <item name="colorPrimarySurface"> @color/green </item>
+        <item name="colorSecondary">      @color/dt_secondary </item>
+        <item name="colorAccent">         @color/dt_accent </item>
+        <item name="colorError">          @color/dt_error </item>
+
+        <item name="colorOnPrimary">        @color/dt_text_on_primary </item>
+        <item name="colorOnPrimarySurface"> @color/dt_text_on_primary_dark </item>
+        <item name="colorOnBackground">     @color/dt_text_on_primary </item>
+        <item name="colorOnSurface">        @color/dt_text_on_primary </item>
+        <item name="colorOnError">          @color/dt_text_on_primary </item>
+        <item name="colorOnSecondary">      @color/dt_text_on_secondary </item>
+
+        <item name="background_primary">        @color/dt_primary</item>
+        <item name="background_secondary">      @color/dt_primary_light</item>
+
+        <item name="button_background">         @color/dt_secondary</item>
+        <item name="button_text">               @color/dt_text_on_primary</item>
+        <item name="button_text_not_enabled">   @color/grey</item>
+
+        <item name="action_tint">               @color/dt_primary_light</item>
+        <item name="action_background">         @color/dt_primary_dark</item>
+
+        <item name="text_primary">              @color/dt_text_on_primary</item>
+        <item name="text_secondary">            @color/dt_text_on_secondary</item>
+        <item name="text_hint">                 @color/dt_text_hint</item>
+
+    </style>
+
+    <style name="DialogFragmentThemeDark" parent="DarkTheme">
+        <item name="android:windowAnimationStyle">@style/DialogFragmentTheme.Animation</item>
+    </style>
+
+    <style name="PopupDark" parent="DarkTheme">
+        <item name="android:popupBackground">@drawable/background_menu_popup</item>
+        <item name="android:itemTextAppearance">@style/MenuItemTextAppearanceDark</item>
+        <item name="buttonTint">@color/dt_text_on_secondary</item>
+        <item name="android:paddingStart">0.5dp</item>
+        <item name="android:paddingEnd">0.5dp</item>
+        <item name="android:dropDownVerticalOffset">4dp</item>
+    </style>
+
+    <style name="MenuItemTextAppearanceDark" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@color/dt_text_on_primary</item>
+    </style>
+
+<!-- ___________________________________________________________________________________________ -->
+    <style name="DialogFragmentThemeLight" parent="LightTheme">
+        <item name="android:windowAnimationStyle">@style/DialogFragmentTheme.Animation</item>
+    </style>
+
+    <style name="LightTheme" parent="BaseTheme">
+        <item name="colorPrimary">        @color/lt_primary </item>
+        <item name="colorPrimaryDark">    @color/lt_primary_dark </item>
+        <item name="colorPrimaryVariant"> @color/lt_primary_light </item>
+        <item name="colorPrimarySurface"> @color/green </item>
+        <item name="colorSecondary">      @color/lt_secondary </item>
+        <item name="colorAccent">         @color/lt_accent </item>
+        <item name="colorError">          @color/lt_error </item>
+
+        <item name="colorOnPrimary">        @color/lt_text_on_primary </item>
+        <item name="colorOnPrimarySurface"> @color/lt_text_on_primary_dark </item>
+        <item name="colorOnBackground">     @color/lt_text_on_primary </item>
+        <item name="colorOnSurface">        @color/lt_text_on_primary </item>
+        <item name="colorOnError">          @color/lt_text_on_primary </item>
+        <item name="colorOnSecondary">      @color/lt_text_on_secondary </item>
+
+        <item name="background_primary">        @color/lt_primary</item>
+        <item name="background_secondary">      @color/lt_primary_light</item>
+
+        <item name="button_background">         @color/lt_secondary</item>
+        <item name="button_text">               @color/lt_text_on_primary</item>
+        <item name="button_text_not_enabled">   @color/grey</item>
+
+        <item name="action_tint">               @color/lt_primary_light</item>
+        <item name="action_background">         @color/lt_primary_dark</item>
+
+        <item name="text_primary">              @color/lt_text_on_primary</item>
+        <item name="text_secondary">            @color/lt_text_on_secondary</item>
+        <item name="text_hint">                 @color/lt_text_hint</item>
+    </style>
+
+    <style name="PopupLight" parent="LightTheme">
+        <item name="android:popupBackground">@drawable/background_menu_popup</item>
+        <item name="android:itemTextAppearance">@style/MenuItemTextAppearanceLight</item>
+        <item name="buttonTint">@color/lt_text_on_secondary</item>
+        <item name="android:paddingStart">0.5dp</item>
+        <item name="android:paddingEnd">0.5dp</item>
+        <item name="android:dropDownVerticalOffset">4dp</item>
+    </style>
+
+    <style name="MenuItemTextAppearanceLight" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@color/lt_text_on_primary</item>
+    </style>
+
+</resources>

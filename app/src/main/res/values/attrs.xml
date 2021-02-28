@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="background_primary"         format="color"/>
+    <attr name="background_secondary"       format="color"/>
+
+    <attr name="button_background"          format="color"/>
+    <attr name="button_text"                format="color"/>
+    <attr name="button_text_not_enabled"    format="color"/>
+
+    <attr name="action_tint"                format="color"/>
+    <attr name="action_background"          format="color"/>
+
+    <attr name="text_primary"               format="color"/>
+    <attr name="text_secondary"             format="color"/>
+    <attr name="text_hint"                  format="color"/>
+
+</resources>

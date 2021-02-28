@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/bottom_nav_about">
+
+    <fragment
+        android:id="@+id/bottom_nav_about"
+        android:name="com.vrozin.businesscard.views.pages.about.fragments.FragmentAbout"
+        android:label="FragmentAbout"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/bottom_nav_experience"
+        android:name="com.vrozin.businesscard.views.pages.experience.fragments.FragmentExperience"
+        android:label="FragmentExperience"
+        tools:layout="@layout/fragment_experience" />
+    <fragment
+        android:id="@+id/bottom_nav_education"
+        android:name="com.vrozin.businesscard.views.pages.education.fragments.FragmentEducation"
+        android:label="FragmentEducation"
+        tools:layout="@layout/fragment_education"/>
+    <fragment
+        android:id="@+id/bottom_nav_hobbies"
+        android:name="com.vrozin.businesscard.views.pages.hobbies.fragments.FragmentHobbies"
+        android:label="FragmentHobbies"
+        tools:layout="@layout/fragment_hobbies"/>
+    <fragment
+        android:id="@+id/bottom_nav_settings"
+        android:name="com.vrozin.businesscard.views.pages.settings.fragments.FragmentSettings"
+        android:label="FragmentSettings"
+        tools:layout="@layout/fragment_settings"/>
+
+    <action
+        android:id="@+id/action_global_bottom_nav_about"
+        app:destination="@id/bottom_nav_about"
+        app:enterAnim="@anim/fragment_fade_enter"
+        app:exitAnim="@anim/fragment_fade_exit"
+        app:popEnterAnim="@anim/fragment_fade_enter"
+        app:popExitAnim="@anim/fragment_fade_exit"
+        app:launchSingleTop="true" />
+    <action
+        android:id="@+id/action_global_bottom_nav_education"
+        app:destination="@id/bottom_nav_education"
+        app:enterAnim="@anim/fragment_fade_enter"
+        app:exitAnim="@anim/fragment_fade_exit"
+        app:popUpTo="@id/bottom_nav_about"
+        app:popUpToInclusive="false"
+        app:popEnterAnim="@anim/fragment_fade_enter"
+        app:popExitAnim="@anim/fragment_fade_exit"
+        app:launchSingleTop="true" />
+    <action
+        android:id="@+id/action_global_bottom_nav_experience"
+        app:destination="@id/bottom_nav_experience"
+        app:enterAnim="@anim/fragment_fade_enter"
+        app:exitAnim="@anim/fragment_fade_exit"
+        app:popUpTo="@id/bottom_nav_about"
+        app:popUpToInclusive="false"
+        app:popEnterAnim="@anim/fragment_fade_enter"
+        app:popExitAnim="@anim/fragment_fade_exit"
+        app:launchSingleTop="true" />
+    <action
+        android:id="@+id/action_global_bottom_nav_hobbies"
+        app:destination="@id/bottom_nav_hobbies"
+        app:enterAnim="@anim/fragment_fade_enter"
+        app:exitAnim="@anim/fragment_fade_exit"
+        app:popUpTo="@id/bottom_nav_about"
+        app:popUpToInclusive="false"
+        app:popEnterAnim="@anim/fragment_fade_enter"
+        app:popExitAnim="@anim/fragment_fade_exit"
+        app:launchSingleTop="true" />
+    <action
+        android:id="@+id/action_global_bottom_nav_settings"
+        app:destination="@id/bottom_nav_settings"
+        app:enterAnim="@anim/fragment_fade_enter"
+        app:exitAnim="@anim/fragment_fade_exit"
+        app:popUpTo="@id/bottom_nav_about"
+        app:popUpToInclusive="false"
+        app:popEnterAnim="@anim/fragment_fade_enter"
+        app:popExitAnim="@anim/fragment_fade_exit"
+        app:launchSingleTop="true" />
+
+</navigation>

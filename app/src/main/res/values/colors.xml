@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#FF00FF00</color>
+    <color name="grey">#666666</color>
+
+<!--_____________________________________________________________________________________________-->
+
+    <color name="dt_primary">       #FF372549</color>
+    <color name="dt_primary_dark">  #FF1A1423</color>
+    <color name="dt_primary_light"> #FFC589E8</color>
+    <color name="dt_secondary">     #FFE3DAFF</color>
+    <color name="dt_accent">        #FFECFFF8</color>
+    <color name="dt_error">         #FFDB162F</color>
+
+    <color name="dt_text_on_primary">       @color/black</color>
+    <color name="dt_text_on_primary_dark">  @color/black</color>
+    <color name="dt_text_on_primary_light"> @color/black</color>
+    <color name="dt_text_on_secondary">     @color/black</color>
+    <color name="dt_text_on_accent">        @color/black</color>
+    <color name="dt_text_hint">             @color/black</color>
+
+<!--    <color name="dt_background_navigation_bar"></color>-->
+<!--    <color name="dt_background_window"></color>-->
+<!--    <color name="dt_background_filed"></color>-->
+
+<!--_____________________________________________________________________________________________-->
+
+    <color name="lt_primary">       #FFE6ADEC</color>
+    <color name="lt_primary_dark">  #FFC287E8</color>
+    <color name="lt_primary_light"> #FFEECFD4</color>
+    <color name="lt_secondary">     #FFCFD4C5</color>
+    <color name="lt_accent">        #FFC4E7D4</color>
+    <color name="lt_error">         #FFDB492F</color>
+
+    <color name="lt_text_on_primary">       @color/black</color>
+    <color name="lt_text_on_primary_dark">  @color/black</color>
+    <color name="lt_text_on_primary_light"> @color/black</color>
+    <color name="lt_text_on_secondary">     @color/black</color>
+    <color name="lt_text_on_accent">        @color/black</color>
+    <color name="lt_text_hint">             @color/black</color>
+
+<!--    <color name="lt_background_navigation_bar"></color>-->
+<!--    <color name="lt_background_window"></color>-->
+<!--    <color name="lt_background_filed"></color>-->
+
+</resources>
